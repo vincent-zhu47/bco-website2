@@ -2796,6 +2796,16 @@ input, select, textarea {
 			margin: 0 auto;
 		}
 
+			.wrapper > .inner > .row > .column{
+				width: 33%;
+			}
+
+			@media screen and (max-width: 600px) {
+				.wrapper > .inner > .row > .column{
+					width: 100%;
+				}
+			}
+
 			@media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
@@ -3411,7 +3421,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7em;
 		}
 
